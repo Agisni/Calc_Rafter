@@ -94,7 +94,7 @@ function App() {
               placeholder="Masukkan lebar atap"
             />
           </div>
-          <button className="btn btn-primary" onClick={hitungPanjangRafter}>
+          <button className="btn btn-primary mt-2" onClick={hitungPanjangRafter}>
             Hitung Panjang Rafter
           </button>
           <p className="mt-3">{hasilRafter}</p>
@@ -122,7 +122,7 @@ function App() {
               placeholder="Masukkan profil baja"
             />
           </div>
-          <button className="btn btn-primary" onClick={calculateCutSlope}>
+          <button className="btn btn-primary mt-2" onClick={calculateCutSlope}>
             Hitung Potongan Rafter
           </button>
           <p className="mt-3">{resultSlope}</p>
@@ -150,7 +150,7 @@ function App() {
               placeholder="Masukkan lebar atap"
             />
           </div>
-          <button className="btn btn-primary" onClick={hitungKemiringan}>
+          <button className="btn btn-primary mt-2" onClick={hitungKemiringan}>
             Hitung Sudut Atap
           </button>
           <p className="mt-3">{hasilKemiringan}</p>
